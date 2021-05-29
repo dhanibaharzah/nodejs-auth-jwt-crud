@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "API Authentication & CRUD User",
   "main": "server.js",
-  "author": "Quantum",
+  "author": "dhanidev@orbitcreation.com",
   "license": "(ISC OR GPL-3.0)",
   "scripts": {
     "test": "npm run standard && NODE_PATH=./config:./app/controllers NODE_ENV=testing ./node_modules/.bin/mocha --exit --reporter spec --timeout 10000 test/*.js",
