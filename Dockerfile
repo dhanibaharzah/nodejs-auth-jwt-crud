@@ -6,10 +6,10 @@ WORKDIR /app
 ## app directory
 COPY package.json /app
 ## We then run npm install to install
-## express for our application
+## fastify for our application
 RUN npm install
 
-## solve bug on bcryp library
+## solve bug on bcrypt library
 RUN npm uninstall bcrypt
 RUN npm install bcrypt
 
